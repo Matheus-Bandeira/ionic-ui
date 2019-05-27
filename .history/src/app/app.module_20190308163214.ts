@@ -7,7 +7,6 @@ import { MyApp } from './app.component';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { CategoriaService } from '../services/domain/categoria.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,6 @@ import { CategoriaService } from '../services/domain/categoria.service';
   providers: [
     StatusBar,
     SplashScreen,
-    CategoriaService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
